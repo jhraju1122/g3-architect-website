@@ -106,6 +106,7 @@ gap: 10px;
 .features .section-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
+    
 }
 .features-content .card{
     border-radius: 8px;
@@ -121,17 +122,33 @@ gap: 10px;
    
     font-weight: 700;
     width: 342px;
-
+    padding: 20px 22px;
+    position: relative;
+    bottom: 100px;
 }
 .ten-years-badge h2{
 font-size: 4rem;
-padding: 40px;
+padding: 0px;
+margin: 0;
+ align-items: center;
+
+
+}
+.ten-years-badge p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
 }
 .features-title{
     font-size:2.8rem;
     font-size: 700;
     margin-bottom: 24px;
 }
+ 
+ .features-img img{
+    height: 90%;
+    margin-left: 50px;
+ }
 /* -----------facts section ---------- */
 .facts-title{
     font-size:2.8rem;
@@ -218,16 +235,16 @@ footer{
     header{
         padding: 20px;
     }
-    nav, {
+   
+    nav, .teams-container, .features, .sponsors-img-container{
         flex-direction: column;
-    }
-    .teams-container{
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
     }
     .teams-img-container,{
         grid-template-columns: repeat(1, 1fr);
     }
- .facts-card-container{
+ .facts-card-container, .facts-card-container {
     flex-direction: column;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -236,6 +253,12 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
  }
+ .teams-img-container, .features{
+    grid-template-columns: repeat(1, 1fr);
+}
+.sponsors-img-container{
+    margin: 20px;
+}
 }
 
 /* responsive for mediam devices  */

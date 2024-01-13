@@ -95,8 +95,18 @@ gap: 10px;
      height: 78px;
      width: 537px;
 }
-
-
+/* -----------facts section ---------- */
+.facts{}
+.facts-text{}
+.facts-title{
+    font-size:2.8rem;
+    font-size: 700;
+}
+.facts-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
+}
 
 /* -----------responsive full website ---------- */
 /* responsive for mobile  */

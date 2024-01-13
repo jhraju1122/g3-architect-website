@@ -2,9 +2,49 @@
     font-family: 'Work Sans', sans-serif;
 }
 nav{
-
+display: flex;
+justify-content: space-between;
 }
-nav>ul a{
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    color: Dark 02;
     text-decoration: none;
     
+}
+
+/* ----------------header styles ----------- */
+header{
+    background-color: #FF900E1A;
+    padding: 50px 240px;
+}
+.banner{}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border-color: #Fff;
 }

@@ -47,4 +47,32 @@ header{
     background-color: #FF900E;
     border-radius: 8px;
     border-color: #Fff;
+    padding: 21px 24px;
+    margin-bottom: 70px;
+}
+.banner img{
+    width: 100%;
+}
+
+
+/* -----------responsive full website ---------- */
+/* responsive for mobile  */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* responsive for mediam devices  */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
 }

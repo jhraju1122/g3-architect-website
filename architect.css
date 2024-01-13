@@ -35,7 +35,7 @@ header{
     font-size: 4rem;
     font-weight: 700;
 }
-.banner-description{
+.banner-description,{
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -101,11 +101,13 @@ gap: 10px;
 .facts-title{
     font-size:2.8rem;
     font-size: 700;
+    margin-bottom: 24px;
 }
 .facts-description{
     font-size: 16px;
     font-weight: 400px;
     color: #727272;
+    margin-bottom: 100px;
 }
 .facts-card-container{
     display: flex;
@@ -137,21 +139,68 @@ gap: 10px;
     padding: 45px 50px 50px 50px;
 
 }
+
+/* sponsors styles  */
+.sponsors{
+  text-align: center;
+}
+.section-title{
+    text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.sponsors-text{
+    
+}
+.sponsors-text-description{
+    text-align: center;
+    color: #727272;
+    margin-bottom: 50px;
+     
+}
+.sponsors-img-container{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 50px;
+ margin-bottom: 130px;
+}
+.sponsors-img-container img{
+    height: 50px;
+    width: 165px;
+}
+footer{
+    background-color: #FFF4E7;
+    padding: 39px 400px;
+    margin: 170px 240px;
+}
+.footer-text{
+    text-align: center;
+}
 /* -----------responsive full website ---------- */
 /* responsive for mobile  */
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
     }
-    nav{
+    nav, {
         flex-direction: column;
     }
     .teams-container{
         flex-direction: column;
     }
-    .teams-img-container{
+    .teams-img-container,{
         grid-template-columns: repeat(1, 1fr);
     }
+ .facts-card-container{
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+ }
+ .teams-container, .facts-card-container{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
 }
 
 /* responsive for mediam devices  */

@@ -54,6 +54,47 @@ header{
     width: 100%;
 }
 
+/*------------ main ---------- */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+display: flex;
+ 
+ align-items: center;
+ margin-bottom: 130px;
+ 
+}
+.teams-img-container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+}
+.team-container-text{
+    margin-left: 73px;
+}
+.teams-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.Quick-list{
+    color: #727272;
+}
+.of-Our{
+    color: black;
+}
+.Features{
+    color: #FF900E;
+}
+
+.teams-description{
+     height: 78px;
+     width: 537px;
+}
+
+
 
 /* -----------responsive full website ---------- */
 /* responsive for mobile  */
@@ -75,4 +116,4 @@ header{
         flex-direction: column;
     }
 }
-}
+
